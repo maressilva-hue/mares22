@@ -1,0 +1,22 @@
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.conteudo {
+  width: 90%;
+  max-width: 900px;
+  margin: auto;
+}
+
+/* responsivo */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 22px;
+  }
+
+  button {
+    width: 95%;
+    font-size: 14px;
+  }
+}
